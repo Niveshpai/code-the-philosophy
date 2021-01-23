@@ -8,3 +8,6 @@ Aristotle saw good as a 'mean' that stands between two bad’s: that of excess a
 
 ## 9. Mark Twain:
 Never try to teach a pig to sing. You waste your time, and you annoy the pig
+
+## 10. Murphy’s Law:
+Anything that can go wrong, will go wrong
