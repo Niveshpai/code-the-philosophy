@@ -1,4 +1,6 @@
 # Code The Philosophy Challenge
+### Author : Nivesh Pai
+### USN : 01FE19BCS034
 
 ## 1. [Newton’s Third Law:](https://github.com/Niveshpai/code-the-philosophy/blob/main/Code/1.%20Newton's%20Third%20Law.c)
 For every action, there is an equal and opposite reaction
