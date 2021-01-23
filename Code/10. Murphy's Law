@@ -21,3 +21,35 @@
 - The effort required to correct an error increases geometrically with time.
 - Only ten percent of the code in any given program will ever be executed.
 
+```
+//I have written a simple program that gives wrong output i.e anything that can go wrong, will go wrong.
+#include<string.h>
+#include<stdio.h>
+int main()
+{
+    char s[10];
+    fgets(s,10,stdin);
+    func(s);
+    return 0;
+}
+void func(char a[])
+{
+    int i, c1, c2;
+    while(a[i]!='\0')
+    {
+        if((a[i]>=65 && a[i]<=90) || (a[i]>=97 && a[i]<=122))
+        {
+            if(a[i]=='A' || a[i]=='I' || a[i]=='O' || a[i]=='U'|| a[i]=='E' || a[i]=='a' || a[i]=='i' || a[i]=='o' || a[i]=='u'|| a[i]=='e')
+            {
+                c1++;
+            }
+            else
+            {
+                c2++;
+            }
+        }
+        i++;
+    }
+    printf("Consonants: %d Vowels: %d", c2, c1);
+}
+```
